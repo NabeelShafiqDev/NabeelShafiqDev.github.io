@@ -4,7 +4,7 @@ body {
 }
 
 .span_color{
-  color: rgb(241, 98, 122);
+  color: #ff00f2;
 }
 .bold_text{
   font-weight: bolder;
@@ -13,10 +13,16 @@ body {
   height: 700px;
 }
 .height i{
-  color: rgb(255, 122, 144);
+  color: #ff00f2;
+}
+.width_300{
+  width: 300px;
+}
+.br_30{
+  border-radius: 30px;
 }
 .custom_btn{
-  background-color: rgb(255, 122, 144);
+  background-color: #ff00f2;
   color: #ffffff;
   border-radius: 20px;
   /* padding:20px; */
@@ -27,6 +33,12 @@ body {
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.height_800{
+  height: 800px;
+}
+.height_900{
+  height: 900px;
 }
 .height_950{
   height: 950px;
@@ -45,7 +57,7 @@ body {
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 900px;
 }
 
 .image-background-light {
@@ -122,7 +134,9 @@ p {
   display:flex;
   align-content: stretch;
 }
-
+.mrgin{
+  margin-bottom: 6rem;
+}
 
 /* .internal p{
   justify-content: center;
@@ -136,6 +150,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
   }
+
 
   .custom_footer {
     padding: 50px;
@@ -158,4 +173,5 @@ p {
   .text-xs-center {
     text-align: center !important;
   }
+
 }
