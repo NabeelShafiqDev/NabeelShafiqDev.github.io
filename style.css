@@ -2,9 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.hero_section{
-  height: 80%;
-}
+
 .span_color{
   color: rgb(241, 98, 122);
 }
@@ -16,6 +14,12 @@ body {
 }
 .height i{
   color: rgb(255, 122, 144);
+}
+.custom_btn{
+  background-color: rgb(255, 122, 144);
+  color: #ffffff;
+  border-radius: 20px;
+  /* padding:20px; */
 }
 .height_250{
   height: 250px;
@@ -59,26 +63,12 @@ p {
   color: rgb(138, 137, 137);
 }
 
-.try {
-  /* background-image: url('client.png');
-  background-repeat: repeat-x; */
-  height: 200px;
-  background-image: url('images/client.png'),
-    url('images/client.png'),
-    url('images/client.png'),
-    url('images/client.png'),
-    url('images/client.png'),
-    url('images/client.png');
-  background-repeat: no-repeat,
-    no-repeat,
-    no-repeat,
-    no-repeat, no-repeat, no-repeat;
-  background-position: 0 top,
-    180px top,
-    360px top,
-    540px top,
-    720px top,
-    900px top;
+.bg-client {
+  width: 130px;
+  height: 60px;
+  margin-right: 20px;
+  background-image: url('images/client.png');
+  background-repeat: no-repeat;
 }
 
 .roxy {
@@ -138,6 +128,8 @@ p {
   justify-content: center;
 } */
 
+
+
 @media screen and (max-width: 768px) {
   .try {
     background-image: url('images/client.png');
@@ -155,4 +147,15 @@ p {
     padding: 20px;
   }
 
+}
+
+@media (max-width: 992px) {
+  .d-xs-none {
+    display: none!important;
+  }
+}
+@media (min-width: 320px) {
+  .text-xs-center {
+    text-align: center !important;
+  }
 }

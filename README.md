@@ -1,2 +1,1 @@
-# https-nabeelshafiqdev.github.io-
-# https-nabeelshafiqdev.github.io-
+# nabeelshafiqdev.github.io
