@@ -19,6 +19,10 @@ body {
 }
 .height_250{
   height: 250px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("images/background");
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .height_950{
   height: 950px;
