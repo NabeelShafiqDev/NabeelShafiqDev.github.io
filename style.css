@@ -2,13 +2,13 @@ body {
   margin: 0px;
   padding: 0px;
 }
-#hero_section{
+.hero_section{
   height: 80%;
 }
 .span_color{
   color: rgb(241, 98, 122);
 }
-#bold_text{
+.bold_text{
   font-weight: bolder;
 }
 .height{
@@ -17,10 +17,10 @@ body {
 .height i{
   color: rgb(255, 122, 144);
 }
-#height_250{
+.height_250{
   height: 250px;
 }
-#height_950{
+.height_950{
   height: 950px;
 }
 .card {
@@ -77,7 +77,7 @@ p {
     900px top;
 }
 
-#roxy {
+.roxy {
   font-size: 144px;
   line-height: 130px;
   font-family: "Work Sans", sans-serif;
@@ -87,7 +87,7 @@ p {
   padding: 20px;
 }
 
-#nav_logo {
+.nav_logo {
   font-family: "Work Sans", sans-serif;
   font-size: 28px;
   font-weight: 500;
